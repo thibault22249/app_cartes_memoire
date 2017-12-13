@@ -1,0 +1,34 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Geoflash</title>
+		<link rel="stylesheet" href="geoflash.css">
+		<script>
+			letstate = 0
+			if (myPicture.src.match("Q01.png")
+				document.getElementById("myPicture") = 
+			
+			var myPix = new Array("Q01.png","Q02.png","Q03.png","Q04.png","Q05.png","Q06.png");
+
+			function choosePic() {
+			var randomNum = Math.floor(Math.random() * myPix.length);
+			document.getElementById("myPicture").src = myPix[randomNum];
+}
+var myPix = new Array("Q01.png","Q02.png","Q03.png","Q04.png","Q05.png","Q06.png");
+
+			function choosePic() {
+			var randomNum = Math.floor(Math.random() * myPix.length);
+			document.getElementById("myPicture").src = myPix[randomNum];
+}
+
+		</script>
+	</head>
+	<body>
+		<h1>Geoflash Physique Chimie 2nd</h1>
+			<div onclick="choosePic()">
+			<img id="myPicture" onclick="choosePic" style="width:399.111;height:577.7;"/>
+			
+			</div>
+			
+	</body>
+</html>
